@@ -1,0 +1,33 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>{{ page.title }}</title>
+  <meta name="description" content="Bolden Therapeutics website">
+  <meta name="author" content="Sam Oliphant">
+  <link rel="stylesheet" type="text/css" href="assets/css/styles.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/nav.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/team.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/home.css" />
+  <link rel="shortcut icon" href="assets/img/favicon.png">
+</head>
+<body>
+  <div class="main">
+    <div class="top-part">
+      {% include navigation.html %}
+      <div class="contents">
+      {{ content }}
+      </div>
+    </div>
+    <footer class="footer">
+      <p>Contact Us</p>
+      <p><a href="mailto: jpage@boldentherapeutics.com">jpage@boldentherapeutics.com</a></p>
+      <p>225 Dyer Street, Floor 2</p>
+      <p>Providence, RI, 02903</p>
+    </footer>
+  </div>
+  <script src="assets/js/index.js"></script>
+</body>
+</html>
+

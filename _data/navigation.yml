@@ -1,0 +1,8 @@
+- name: Home
+  link: index.html
+- name: Events
+  link: events.html
+- name: Team
+  link: team.html
+- name: Press
+  link: press.html

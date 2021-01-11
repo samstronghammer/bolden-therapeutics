@@ -1,0 +1,32 @@
+.about-us {
+  padding: 10px;
+  background-color: rgb(240, 240, 240);
+}
+
+.about-us .about-us-member {
+  display: flex;
+  flex-direction: row;
+  margin: 5px 0;
+}
+
+.about-us .about-us-member-img-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.about-us .about-us-member-img {
+  width: 200px;
+  height: auto;
+  border-radius: 20px;
+}
+
+.about-us .about-us-member-info {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+}
+
+.about-us p {
+  margin: 5px 0;
+}

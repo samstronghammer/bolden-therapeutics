@@ -1,0 +1,19 @@
+---
+layout: default
+title: "Team"
+---
+<div class="about-us">
+  {% for item in site.data.team %}
+  <div class="about-us-member">
+    <div class="about-us-member-img-container">
+      <img src="assets/img/team/{{item.img}}" class="about-us-member-img">
+    </div>
+    <div class="about-us-member-info">
+      <p>{{item.name}}, {{item.education}}</p>
+      <p>{{item.title}}</p>
+      <p>{{item.about}}</p>
+    </div>
+  </div>
+  {% if site.data.team.last.name != item.name %}<div class="divider"></div>{% endif %}
+  {% endfor %}
+</div>

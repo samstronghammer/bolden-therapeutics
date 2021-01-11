@@ -1,0 +1,9 @@
+{% for item in site.data.science %}
+<div class="home-pic" style="background-image: url(assets/img/science/{{item.filename}}); text-align: {{item.align}};">
+  <div class="home-background-dim"></div>
+  <div class="home-pic-text">
+    <h2>{{item.title}}</h2>
+    <p>{{item.content}}</p>  
+  </div>
+</div>
+{% endfor %}
