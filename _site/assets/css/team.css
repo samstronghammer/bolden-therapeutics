@@ -1,24 +1,50 @@
+:root {
+  --about-us-member-border-radius: 30px;
+  --about-us-member-offset: 80px;
+}
+
 .about-us {
   padding: 10px;
-  background-color: rgb(240, 240, 240);
 }
 
 .about-us .about-us-member {
   display: flex;
   flex-direction: row;
-  margin: 5px 0;
+  margin: 10px 0;
+  background-color: rgb(240, 240, 240);
+  border-radius: var(--about-us-member-border-radius);
+  box-shadow: 3px 3px 5px rgba(30, 30, 30, 0.5);
+}
+
+.about-us .about-us-member:nth-child(odd) {
+  margin-right: var(--about-us-member-offset);
+}
+
+.about-us .about-us-member:nth-child(even) {
+  margin-left: var(--about-us-member-offset);
+}
+
+.about-us .about-us-member:nth-child(even) h3, 
+.about-us .about-us-member:nth-child(even) i {
+  text-align: right;
+}
+
+.about-us .about-us-member-info h3 {
+  margin: 15px 0 10px;
 }
 
 .about-us .about-us-member-img-container {
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin: 10px;
 }
 
 .about-us .about-us-member-img {
   width: 200px;
   height: auto;
-  border-radius: 20px;
+  border-radius: var(--about-us-member-border-radius);
+  box-shadow: 0px 0px 8px rgb(170, 160, 180);
 }
 
 .about-us .about-us-member-info {
