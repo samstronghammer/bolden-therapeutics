@@ -12,28 +12,28 @@
 .about-us .about-us-member {
   display: flex;
   flex-direction: row;
-  margin: 10px 0;
+  margin: 25px 0;
   background-color: rgb(240, 240, 240);
   border-radius: var(--about-us-member-border-radius);
   box-shadow: 3px 3px 5px rgba(30, 30, 30, 0.5);
 }
 
-.about-us .about-us-member:nth-child(odd) {
+.about-us .about-us-member:nth-child(even) {
   margin-right: var(--about-us-member-offset);
 }
 
-.about-us .about-us-member:nth-child(even) {
+.about-us .about-us-member:nth-child(odd) {
   margin-left: var(--about-us-member-offset);
-}
-
-.about-us .about-us-member:nth-child(even) h3, 
-.about-us .about-us-member:nth-child(even) i {
-  text-align: center;
-  margin-left: calc(2 * var(--about-us-image-container-margin) + var(--about-us-image-width) - var(--about-us-member-offset));
 }
 
 .about-us .about-us-member:nth-child(odd) h3, 
 .about-us .about-us-member:nth-child(odd) i {
+  text-align: center;
+  margin-left: calc(2 * var(--about-us-image-container-margin) + var(--about-us-image-width) - var(--about-us-member-offset));
+}
+
+.about-us .about-us-member:nth-child(even) h3, 
+.about-us .about-us-member:nth-child(even) i {
   text-align: center;
   margin-right: calc(2 * var(--about-us-image-container-margin) + var(--about-us-image-width) - var(--about-us-member-offset));
 }
