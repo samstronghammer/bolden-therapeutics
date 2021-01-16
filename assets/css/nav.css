@@ -1,6 +1,6 @@
 .navbar {
   width: 100%;
-  background-image: linear-gradient(to right, white, white, white, var(--logo-o-color), var(--logo-o-color), var(--logo-o-color));
+  background-image: linear-gradient(to right, white 50%,  var(--logo-o-color) 50%);
   display: flex;
   flex-direction: row;
   justify-content: center;
