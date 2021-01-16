@@ -1,6 +1,8 @@
 :root {
   --about-us-member-border-radius: 30px;
   --about-us-member-offset: 80px;
+  --about-us-image-width: 200px;
+  --about-us-image-container-margin: 10px;
 }
 
 .about-us {
@@ -26,22 +28,33 @@
 
 .about-us .about-us-member:nth-child(even) h3, 
 .about-us .about-us-member:nth-child(even) i {
-  text-align: right;
+  text-align: center;
+  margin-left: calc(2 * var(--about-us-image-container-margin) + var(--about-us-image-width) - var(--about-us-member-offset));
+}
+
+.about-us .about-us-member:nth-child(odd) h3, 
+.about-us .about-us-member:nth-child(odd) i {
+  text-align: center;
+  margin-right: calc(2 * var(--about-us-image-container-margin) + var(--about-us-image-width) - var(--about-us-member-offset));
 }
 
 .about-us .about-us-member-info h3 {
   margin: 15px 0 10px;
 }
 
+.about-us .about-us-member-info i p {
+  text-indent: 0;
+}
+
 .about-us .about-us-member-img-container {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin: 10px;
+  margin: var(--about-us-image-container-margin);
 }
 
 .about-us .about-us-member-img {
-  width: 200px;
+  width: var(--about-us-image-width);
   height: auto;
   border-radius: var(--about-us-member-border-radius);
   box-shadow: 0px 0px 8px rgb(170, 160, 180);

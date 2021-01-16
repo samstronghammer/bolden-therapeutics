@@ -1,6 +1,6 @@
 <nav class="navbar">
   <div class="navbar-container">
-    <a href="index.html"><img src="assets/img/bolden-logo-mini.svg" class="navbar-logo"></a>
+    <a href="index.html"><img src="assets/img/bolden-logo-mini.svg" class="navbar-logo" alt="Bolden Therapeutics logo"></a>
     <div class="navbar-links">
       {% for item in site.data.navigation %}
       <div class="navbar-item{% if page.url contains item.link or page.url == "/" and item.link == "index.html"%} active{% endif %}">

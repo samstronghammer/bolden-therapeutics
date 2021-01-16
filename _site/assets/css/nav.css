@@ -1,12 +1,14 @@
 .navbar {
   width: 100%;
-  background-color: var(--navbar-color);
+  background-image: linear-gradient(to right, white, white, white, var(--logo-o-color), var(--logo-o-color), var(--logo-o-color));
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
 .navbar .navbar-container {
+  background-image: linear-gradient(to right, white, var(--navbar-color), var(--logo-o-color));
+
   max-width: var(--site-width);
   width: 100%;
   position: relative;
@@ -35,6 +37,10 @@
   text-transform: uppercase;
   font-weight: 600;
   text-decoration: none;
+}
+
+.navbar .navbar-item > a.navbar-link:hover {
+  color: var(--link-hover-color);
 }
 
 .navbar .navbar-item.active > a.navbar-link {

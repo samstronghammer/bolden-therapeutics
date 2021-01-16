@@ -8,7 +8,7 @@ title: "Team"
     {% assign parity = forloop.index | modulo: 2 %}
     {% capture img_block %}
     <div class="about-us-member-img-container">
-      <img src="assets/img/team/{{item.img}}" class="about-us-member-img">
+      <img src="assets/img/team/{{item.img}}" class="about-us-member-img" alt="{{item.name}}, {{item.title}}">
     </div>
     {% endcapture %}
     {% if parity == 1 %}{{ img_block }}{% endif %}

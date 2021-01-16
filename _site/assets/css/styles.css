@@ -1,6 +1,7 @@
 :root {
   --logo-o-color: rgb(63, 98, 136);
   --navbar-color: rgb(113, 148, 186);
+  --link-hover-color: rgb(217, 182, 252);
   --site-width: 1100px;
 }
 
@@ -13,6 +14,7 @@
   display: flex;
   flex-direction: column;
   background-color: rgb(190, 180, 200);
+  background-image: linear-gradient( rgb(230, 220, 240), rgb(160, 150, 170));
   justify-content: space-between;
   align-items: center;
   font-family: 'Montserrat', sans-serif;
@@ -55,4 +57,8 @@
 
 p {
   text-indent: 20px;
+}
+
+a:hover {
+  color: var(--link-hover-color);
 }
