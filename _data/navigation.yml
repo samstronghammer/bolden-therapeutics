@@ -1,10 +1,10 @@
 - name: Home
   link: index.html
-- name: Events
-  link: events.html
-- name: Team
-  link: team.html
-- name: Research
-  link: research.html
+- name: Publications
+  link: publications.html
 - name: Press
   link: press.html
+- name: FAQ
+  link: faq.html
+- name: Team
+  link: team.html

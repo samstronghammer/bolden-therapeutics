@@ -3,6 +3,7 @@
   --navbar-color: rgb(113, 148, 186);
   --link-hover-color: rgb(217, 182, 252);
   --site-width: 1100px;
+  --purple-color: rgb(30, 30, 60);
 }
 
 .main {
@@ -35,7 +36,7 @@
 
 .footer {
   width: 100%;
-  background-color: rgb(30, 30, 60);
+  background-color: var(--purple-color);
   color: rgb(246, 240, 252);
 }
 

@@ -3,6 +3,7 @@
   --about-us-member-offset: 80px;
   --about-us-image-width: 200px;
   --about-us-image-container-margin: 10px;
+
 }
 
 .about-us {
@@ -38,7 +39,7 @@
   margin-right: calc(2 * var(--about-us-image-container-margin) + var(--about-us-image-width) - var(--about-us-member-offset));
 }
 
-.about-us .about-us-member-info h3 {
+.about-us h3 {
   margin: 15px 0 10px;
 }
 
@@ -67,5 +68,12 @@
 }
 
 .about-us p {
-  margin: 5px 0;
+  margin: 10px 0;
+}
+
+.about-us .about-us-join {
+  padding: 5px 20px;
+  background-color: rgb(240, 240, 240);
+  border-radius: var(--about-us-member-border-radius);
+  box-shadow: 3px 3px 5px rgba(30, 30, 30, 0.5);
 }
