@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.959798"
-     inkscape:cx="163.8486"
-     inkscape:cy="41.120484"
+     inkscape:zoom="2.8"
+     inkscape:cx="229.22754"
+     inkscape:cy="98.991575"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -44,26 +44,27 @@
      inkscape:window-maximized="0"
      inkscape:snap-others="true"
      inkscape:snap-nodes="true"
-     inkscape:snap-global="false"
+     inkscape:snap-global="true"
      inkscape:snap-intersection-paths="true"
      inkscape:snap-bbox="true"
      inkscape:object-paths="true"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
-     fit-margin-bottom="0">
+     fit-margin-bottom="0"
+     inkscape:snap-page="true">
     <sodipodi:guide
        position="66.145832,268.33861"
        orientation="1,0"
        id="guide3817"
-       inkscape:locked="true"
+       inkscape:locked="false"
        inkscape:label=""
        inkscape:color="rgb(0,0,255)" />
     <sodipodi:guide
        position="-38.219541,66.145832"
        orientation="0,1"
        id="guide3819"
-       inkscape:locked="true"
+       inkscape:locked="false"
        inkscape:label=""
        inkscape:color="rgb(0,0,255)" />
   </sodipodi:namedview>
@@ -87,24 +88,19 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="13.094174"
-       y="287.58444"
+       x="0.17132001"
+       y="287.70932"
        id="text3715"><tspan
          sodipodi:role="line"
-         x="13.094174"
-         y="287.58444"
+         x="0.17132001"
+         y="287.70932"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.81944466px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
          id="tspan3763">THERAPEUTICS</tspan></text>
     <g
        aria-label="Bolden"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        id="text3815"
-       transform="translate(-20.238324,57.168239)">
-      <path
-         d="m 23.193281,211.80458 v 7.53787 h 4.464844 q 2.246202,0 3.321072,-0.92329 1.08865,-0.93707 1.08865,-2.85254 0,-1.92925 -1.08865,-2.83876 -1.07487,-0.92328 -3.321072,-0.92328 z m 0,-8.46116 v 6.20118 h 4.120335 q 2.039496,0 3.031683,-0.75793 1.005968,-0.7717 1.005968,-2.34266 0,-1.55718 -1.005968,-2.32889 -0.992187,-0.7717 -3.031683,-0.7717 z m -2.783637,-2.28754 h 7.110677 q 3.183268,0 4.905816,1.32292 1.722548,1.32291 1.722548,3.76204 0,1.88791 -0.881945,3.00412 -0.881944,1.11621 -2.590711,1.39182 2.053276,0.44097 3.183268,1.84657 1.143771,1.39182 1.143771,3.48644 0,2.75608 -1.874131,4.25814 -1.874132,1.50206 -5.333008,1.50206 h -7.386285 z"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.22222137px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
-         id="path3840"
-         inkscape:connector-curvature="0" />
+       transform="translate(-20.380066,57.191863)">
       <path
          d="m 56.927659,200.18772 h 2.53559 v 21.44227 h -2.53559 z"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.22222137px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
@@ -125,6 +121,11 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.22222137px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
          id="path3850"
          inkscape:connector-curvature="0" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path936"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.22222137px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+         d="m 23.086976,208.51501 v -8.35091 h -2.53559 v 21.44227 h 2.53559 v -2.3151 q 0.799262,1.37803 2.025716,2.05327 1.212673,0.66146 2.921441,0.66146 2.797417,0 4.561306,-2.23242 1.750109,-2.23242 1.750109,-5.87044 0,-3.63802 -1.750109,-5.87045 -1.763889,-2.23242 -4.561306,-2.23242 -1.708768,0 -2.921441,0.67524 -1.226454,0.66146 -2.025716,2.0395 z m 8.640299,5.38813 q 0,2.79741 -1.143772,4.39594 -1.157552,1.58474 -3.169487,1.58474 -2.011936,0 -3.169488,-1.58474 -1.157552,-1.59853 -1.157552,-4.39594 0,-2.79742 1.157552,-4.38216 1.157552,-1.59853 3.169488,-1.59853 2.011935,0 3.169487,1.59853 1.143772,1.58474 1.143772,4.38216 z" />
     </g>
     <flowRoot
        xml:space="preserve"
@@ -137,7 +138,7 @@
            height="132.32999"
            x="93.944183"
            y="335.34512" /></flowRegion><flowPara
-         id="flowPara3859"></flowPara></flowRoot>    <flowRoot
+         id="flowPara3859" /></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot3865"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
@@ -159,7 +160,7 @@
            height="161.6244"
            x="41.416256"
            y="323.2233" /></flowRegion><flowPara
-         id="flowPara3879"></flowPara></flowRoot>    <path
+         id="flowPara3879" /></flowRoot>    <path
        style="fill:#3f6288;fill-opacity:1;stroke-width:0.26458332"
        d="m 25.515267,260.96003 a 8.9535293,8.9535293 0 0 0 -8.953457,8.95398 8.9535293,8.9535293 0 0 0 8.953457,8.95346 8.9535293,8.9535293 0 0 0 8.953458,-8.95346 8.9535293,8.9535293 0 0 0 -8.953458,-8.95398 z m 0,5.07825 a 3.8754081,3.8754081 0 0 1 3.875215,3.87573 3.8754081,3.8754081 0 0 1 -3.875215,3.87522 3.8754081,3.8754081 0 0 1 -3.875733,-3.87522 3.8754081,3.8754081 0 0 1 3.875733,-3.87573 z"
        id="path3899"
