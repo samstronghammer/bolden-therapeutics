@@ -15,7 +15,7 @@
    version="1.1"
    id="svg999"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
-   sodipodi:docname="long-squiggle-circles.ink.svg"
+   sodipodi:docname="long-squiggle-circles.svg"
    inkscape:export-filename="/home/sam/Pictures/long-squiggle-circles.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96">
@@ -71,7 +71,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>

@@ -4,9 +4,19 @@ title: "Publications"
 ---
 
 <div class="publications">
-  {% for item in site.data.research %}
-  <h3>{{ item.title }}</h3>
-  <p>{{ item.content }}</p>
-  {% include divider.html %}
-  {% endfor %}
+  <h2>Publications</h2>
+  <p>
+    Neurogenesis is the formation of new neurons from neural stem cells (NSCs). 
+    It is an endogenous process that has been observed throughout life into advanced age. 
+    NSCs reside in at least two regions of the adult brain: the dentate gyrus of the hippocampus 
+    and the subventricular zone, which lines the lateral ventricles. Additional information about 
+    neurogenesis and drug development can be found in our team’s publications.
+  </p>
+  <div class="bibliographies">
+    {% for item in site.data.publications %}
+    <div class="bibliography">
+      <p>See <a href={{item.url}} target="_blank">{{item.name}}'s Publications</a></p>
+    </div>
+    {% endfor %}
+  </div>
 </div>
