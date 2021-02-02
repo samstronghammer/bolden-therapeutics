@@ -1,9 +1,9 @@
 <nav class="navbar">
   <div class="navbar-container">
-    <a href="index.html"><img src="assets/img/mini/bolden-logo.svg" class="navbar-logo" alt="Bolden Therapeutics"></a>
+    <a href="/index.html"><img src="/assets/img/mini/bolden-logo.svg" class="navbar-logo" alt="Bolden Therapeutics"></a>
     <div class="navbar-links">
       {% for item in site.data.navigation %}
-      <div class="navbar-item{% if page.url contains item.link or page.url == "/" and item.link == "index.html"%} active{% endif %}">
+      <div class="navbar-item{% if page.url contains item.link or page.url == "/" and item.link == "/index.html"%} active{% endif %}">
         <a class="navbar-link" href="{{ item.link }}">{{item.name}}</a>
       </div>
       {% endfor %}
