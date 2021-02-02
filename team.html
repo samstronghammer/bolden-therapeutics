@@ -2,26 +2,27 @@
 layout: default
 title: "Team"
 ---
-<div class="about-us">
-  <h2>Meet the Team</h2>
+<div class="team">
+  <div class="intro"><h2>Meet the Team</h2></div>
+  
   {% for item in site.data.team %}
-  <div class="about-us-member">
+  <div class="team-member">
     {% assign parity = forloop.index | modulo: 2 %}
     {% capture img_block %}
-    <div class="about-us-member-img-container">
-      <img src="assets/img/team/{{item.img}}" class="about-us-member-img" alt="{{item.name}}, {{item.title}}">
+    <div class="team-member-img-container">
+      <img src="assets/img/team/{{item.img}}" class="team-member-img" alt="{{item.name}}, {{item.title}}">
     </div>
     {% endcapture %}
     {% if parity == 1 %}{{ img_block }}{% endif %}
-    <div class="about-us-member-info">
+    <div class="team-member-info">
       <h3>{{item.name}}, {{item.education}}</h3>
       <i><p>{{item.title}}</p></i>
-      <p>{{item.about}}</p>
+      <p class="team-member-about">{{item.about}}</p>
     </div>
     {% if parity == 0 %}{{ img_block }}{% endif %}
   </div>
   {% endfor %}
-  <div class="about-us-join">
+  <div class="team-join">
     <h3>Join Us</h3>
     <p>For employment inquires please email <a href="mailto: info@boldentherapeutics.com">info@boldentherapeutics.com</a>.</p>
   </div>

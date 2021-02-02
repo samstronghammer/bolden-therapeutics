@@ -4,10 +4,6 @@
   flex-direction: column;
 }
 
-.publications p {
-  text-indent: 0;
-}
-
 .publications .bibliographies {
   display: flex;
   flex-direction: row;
@@ -18,8 +14,12 @@
 
 .publications .bibliography {
   background-color: rgba(240, 240, 240, 0.8);
-  border-radius: var(--about-us-member-border-radius);
+  border-radius: var(--team-member-border-radius);
   padding: 0 20px;
   box-shadow: 3px 3px 5px rgba(30, 30, 30, 0.5);
   margin: 10px;
+}
+
+.publications .bibliography p {
+  text-indent: 0;
 }
