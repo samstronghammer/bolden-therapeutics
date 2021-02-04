@@ -5,6 +5,7 @@
   Bolden has established proof-of-concept of this approach to increase neurogenesis and 
   enhance hippocampal-dependent memory."
   align: left
+  justify: flex-start
 - filename: tech-brain.jpeg
   title: Background
   content: "Neurogenesis has been extensively studied in animals, and is believed to play an 
@@ -13,6 +14,7 @@
   diseases and neurological conditions. In addition, neurogenesis has been implicated as important 
   for functional recovery following traumatic brain injury and ischemic stroke."
   align: center
+  justify: center
 - filename: brains.jpeg
   title: Target Indications
   content: "Due to the nature of neurogenesis as a target, there are a multitude of potential 
@@ -21,3 +23,4 @@
   stroke, treatment-resistant depression, Huntington’s disease, Parkinson’s disease, traumatic 
   brain injury, and cognitive impairment following chemotherapy."
   align: right
+  justify: flex-end
