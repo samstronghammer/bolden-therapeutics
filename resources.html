@@ -16,8 +16,10 @@ title: "Resources"
   </div>
   <div class="bibliographies">
     {% for item in site.data.resources %}
-    <div class="bibliography">
-      <p>See <a href={{item.url}} target="_blank">{{item.name}}'s Publications</a></p>
+    <div class="bibliography-wrapper">
+      <div class="bibliography">
+        <p>See <a href={{item.url}} target="_blank">{{item.name}}'s Publications</a></p>
+      </div>
     </div>
     {% endfor %}
   </div>

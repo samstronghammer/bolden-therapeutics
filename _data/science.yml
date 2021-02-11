@@ -4,7 +4,6 @@
   the birth of new neurons (neurogenesis) in the adult brain. In a proprietary mouse model 
   Bolden has established proof-of-concept of this approach to increase neurogenesis and 
   enhance hippocampal-dependent memory."
-  align: left
   justify: flex-start
 - filename: tech-brain.jpeg
   title: Background
@@ -13,7 +12,6 @@
   dysfunction and memory impairment, and this phenomenon is observed in multiple neurodegenerative 
   diseases and neurological conditions. In addition, neurogenesis has been implicated as important 
   for functional recovery following traumatic brain injury and ischemic stroke."
-  align: center
   justify: center
 - filename: brains.jpeg
   title: Target Indications
@@ -22,5 +20,4 @@
   These include but are not limited to: Alzheimer’s disease and related dementias, ischemic 
   stroke, treatment-resistant depression, Huntington’s disease, Parkinson’s disease, traumatic 
   brain injury, and cognitive impairment following chemotherapy."
-  align: right
   justify: flex-end

@@ -30,13 +30,13 @@
 }
 
 .team .team-member:nth-child(odd) h3, 
-.team .team-member:nth-child(odd) i {
+.team .team-member:nth-child(odd) i p {
   text-align: center;
   margin-left: calc(2 * var(--team-image-container-margin) + var(--team-image-width) - var(--team-member-offset));
 }
 
 .team .team-member:nth-child(even) h3, 
-.team .team-member:nth-child(even) i {
+.team .team-member:nth-child(even) i p {
   text-align: center;
   margin-right: calc(2 * var(--team-image-container-margin) + var(--team-image-width) - var(--team-member-offset));
 }

@@ -6,13 +6,12 @@
 <div class="home-pic" 
   style="
         background-image: url(/assets/img/science/{{item.filename}}); 
-        text-align: {{item.align}};
         justify-content: {{item.justify}};
         {{border_style}}">
   <div class="home-background-dim" style="{{border_style}}"></div>
   <div class="home-pic-text">
     <h2>{{item.title}}</h2>
-    <p style="text-indent: 0;">{{item.content}}</p>  
+    <p>{{item.content}}</p>  
   </div>
 </div>
 {% endfor %}

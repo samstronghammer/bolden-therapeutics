@@ -7,9 +7,16 @@
 .resources .bibliographies {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.resources .bibliography-wrapper {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  flex-basis: 0;
 }
 
 .resources .bibliography {
@@ -22,6 +29,7 @@
 
 .resources .bibliography p {
   text-indent: 0;
+  white-space: nowrap;
 }
 
 .resources .presentation {
