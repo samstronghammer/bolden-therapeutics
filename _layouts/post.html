@@ -1,0 +1,55 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="/assets/js/tag.js"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-QJDNQC844N');
+  </script>
+  <meta charset="utf-8">
+  <title>{{ page.title }}</title>
+  <meta name="description" content="Bolden Therapeutics website">
+  <meta name="author" content="Sam Oliphant">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+  <link rel="stylesheet" type="text/css" href="/assets/css/styles.css" />
+  <link rel="stylesheet" type="text/css" href="/assets/css/nav.css" />
+  <link rel="stylesheet" type="text/css" href="/assets/css/team.css" />
+  <link rel="stylesheet" type="text/css" href="/assets/css/home.css" />
+  <link rel="stylesheet" type="text/css" href="/assets/css/resources.css" />
+  <link rel="stylesheet" type="text/css" href="/assets/css/press.css" />
+  <link rel="shortcut icon" href="/assets/img/favicon.png">
+</head>
+<body>
+  <div class="main">
+    <div class="top-part">
+      {% include navigation.html %}
+      <div class="contents">
+        <div class="press">
+          <div class="intro">
+            <h2>{{ page.title }}</h2>
+            <p>{{ page.date | date: "%B %e, %Y" }}</p>
+            {{ content }}
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <p>Contact Us</p>
+      <p><a href="mailto: info@boldentherapeutics.com">info@boldentherapeutics.com</a></p>
+      <p>225 Dyer Street, Floor 2</p>
+      <p>Providence, RI, 02903</p>
+    </footer>
+    <img class="background right-background" src="/assets/img/mini/right-background.svg">
+    <img class="background bottom-left-background" src="/assets/img/mini/bottom-left-background.svg">
+  </div>
+  <script src="/assets/js/index.js"></script>
+</body>
+</html>
+

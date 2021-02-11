@@ -3,3 +3,16 @@
   display: flex;
   flex-direction: column;
 }
+
+.press-release h4 {
+  margin-bottom: 0;
+}
+
+.press-release h3 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.press-release p {
+  margin-top: 0;
+}

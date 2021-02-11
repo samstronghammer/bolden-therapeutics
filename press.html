@@ -5,6 +5,12 @@ title: "Press"
 <div class="press">
   <div class="intro">
     <h2>Press Releases</h2>
-    <p>Coming soon!</p>
+    {% for post in site.posts %}
+    <div class="press-release">
+      <h4>{{post.date | date: "%B %e, %Y"}}</h4>
+      <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
+      {{ post.excerpt }}
+    </div>
+    {% endfor %}
   </div>
 </div>
