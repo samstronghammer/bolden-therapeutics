@@ -2,28 +2,71 @@
 layout: default
 title: "Team"
 ---
+
+
+<script>
+  const showPopup = (num) => {
+    const popup = document.getElementById(`popup-id-${num}`);
+    popup.classList.add("showing");
+    popup.children[0].onclick = blockEvent;
+    document.body.classList.add("no-scroll");
+  }
+  const hidePopup = (num) => {
+    const popup = document.getElementById(`popup-id-${num}`);
+    popup.children[0].onclick = undefined;
+    popup.classList.remove("showing");
+    document.body.classList.remove("no-scroll");
+  }
+  const blockEvent = (e) => {
+    e.stopPropagation();
+  }
+</script>
 <div class="team">
-  <div class="intro"><h2>Meet the Team</h2></div>
-  
-  {% for item in site.data.team %}
-  <div class="team-member">
-    {% assign parity = forloop.index | modulo: 2 %}
-    {% capture img_block %}
-    <div class="team-member-img-container">
-      <img src="assets/img/team/{{item.img}}" class="team-member-img" alt="{{item.name}}, {{item.title}}">
-    </div>
-    {% endcapture %}
-    {% if parity == 1 %}{{ img_block }}{% endif %}
-    <div class="team-member-info">
-      <h3>{{item.name}}, {{item.education}}</h3>
-      <i><p>{{item.title}}</p></i>
-      <p class="team-member-about">{{item.about}}</p>
-    </div>
-    {% if parity == 0 %}{{ img_block }}{% endif %}
+  <div class="intro">
+    <h2>Meet the Team</h2>
   </div>
-  {% endfor %}
+  <div class="team-members">
+    {% assign team = site.data.team | sort: 'name' %}
+    {% for item in team %}
+    <div class="team-member-wrapper">
+      <div class="team-member team-hover" onclick=showPopup({{forloop.index0}})>
+        <div class="team-member-img-container">
+          <img src="assets/img/team/{{item.img}}" class="team-member-img" alt="{{item.name}}, {{item.title}}">
+        </div>
+        <div class="team-member-info">
+          <h3>{{item.name}}, {{item.education}}</h3>
+          <i>
+            <p>{{item.title}}</p>
+          </i>
+        </div>
+      </div>
+    </div>
+    <div id="popup-id-{{forloop.index0}}" class="team-member-popup-overlay" onclick=hidePopup({{forloop.index0}})>
+      <div class="team-member-popup">
+        <div class="team-member-popup-container">
+          <div class="team-popup-header">
+            <div class="team-member-info">
+              <h3>{{item.name}}</h3>
+              <h4>{{item.title}}</h4>
+            </div>
+            <button onclick=hidePopup({{forloop.index0}}) class="no-border-button close-button">
+              <div class="close-img">
+                <img src="{{ '/assets/img/mini/close.svg' | relative_url }}" alt="Close Menu" class="close-img">
+              </div>
+            </button>
+          </div>
+          <div class="team-member-img-about">
+            <img src="{{ 'assets/img/team/' | append: item.img | relative_url }}" class="team-member-img" alt="{{item.name}}, {{item.title}}">
+            <p class="team-member-about">{{item.about}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
   <div class="team-join">
     <h3>Join Us</h3>
-    <p>For employment inquires please email <a href="mailto: info@boldentherapeutics.com">info@boldentherapeutics.com</a>.</p>
+    <p>For employment inquires please email <a
+        href="mailto: info@boldentherapeutics.com">info@boldentherapeutics.com</a>.</p>
   </div>
 </div>

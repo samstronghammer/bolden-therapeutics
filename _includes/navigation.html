@@ -1,3 +1,15 @@
+<script>
+  let shown = false;
+  const toggleMenu = () => {
+    const menuElement = document.getElementById("hamburger-menu");
+    if (shown) {
+        menuElement.style.left = "-250px";
+    } else {
+        menuElement.style.left = "0";
+    }
+    shown = !shown;
+  }
+</script>
 <nav class="navbar">
   <div class="navbar-container">
     <a href="/index.html"><img src="/assets/img/mini/bolden-logo.svg" class="navbar-logo" alt="Bolden Therapeutics"></a>
@@ -9,4 +21,7 @@
       {% endfor %}
     </div>
   </div>
+  <!-- <button onclick="toggleMenu()" class="no-border-button">
+    <img src="{{ '/assets/img/mini/hamburger.svg' | relative_url }}" alt="Hamburger Menu" class="hamburger">
+  </button> -->
 </nav>

@@ -1,7 +1,7 @@
 :root {
   --team-member-border-radius: 30px;
   --team-member-offset: 80px;
-  --team-image-width: 200px;
+  --team-image-width: 220px;
   --team-image-container-margin: 10px;
 }
 
@@ -11,9 +11,26 @@
   flex-direction: column;
 }
 
-.team .team-member {
+.team .team-members {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.team-member-wrapper {
+  flex-grow: 1;
+  flex-basis: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.team .team-member {
+  display: flex;
+  flex-direction: column;
   margin: 20px 0;
   background-color: rgba(240, 240, 240, 0.8);
   border-radius: var(--team-member-border-radius);
@@ -21,41 +38,16 @@
   padding: 25px;
 }
 
-.team .team-member:nth-child(even) {
-  margin-right: var(--team-member-offset);
-}
-
-.team .team-member:nth-child(odd) {
-  margin-left: var(--team-member-offset);
-}
-
-.team .team-member:nth-child(odd) h3, 
-.team .team-member:nth-child(odd) i p {
-  text-align: center;
-  margin-left: calc(2 * var(--team-image-container-margin) + var(--team-image-width) - var(--team-member-offset));
-}
-
-.team .team-member:nth-child(even) h3, 
-.team .team-member:nth-child(even) i p {
-  text-align: center;
-  margin-right: calc(2 * var(--team-image-container-margin) + var(--team-image-width) - var(--team-member-offset));
-}
-
-.team .team-member:nth-child(even) .team-member-img-container {
-  margin-right: 30px;
-}
-
-.team .team-member:nth-child(odd) .team-member-img-container {
-  margin-left: 30px;
-}
-
 .team .team-member-info h3 {
   margin: 0;
+  max-width: var(--team-image-width);
+
 }
 
 .team .team-member-info i p {
   text-indent: 0;
   margin: 10px 0;
+  max-width: var(--team-image-width);
 }
 
 .team .team-member-img-container {
@@ -90,4 +82,88 @@
   background-color: rgba(240, 240, 240, 0.8);
   border-radius: var(--team-member-border-radius);
   box-shadow: 3px 3px 5px rgba(30, 30, 30, 0.5);
+}
+
+.team .team-hover {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.team .team-hover:hover {
+  box-shadow: 7px 7px 4px rgba(30, 30, 30, 0.5);
+  transform: translate(-4px, -4px);
+}
+
+
+.team .team-member-popup-overlay {
+  display: flex;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(30, 30, 60, 0.5);
+}
+
+.team .team-member-popup-overlay.showing {
+  visibility: visible;
+  opacity: 1;
+}
+
+.team-member-popup {
+  background-color: rgb(240, 240, 240);
+  max-width: calc(min(100vw, 800px) - 80px);
+  min-width: 260px;
+  max-height: calc(100vh - 80px);
+  padding: 25px;
+  border-radius: var(--team-member-border-radius);
+  position: relative;
+}
+
+.team-member-popup-container {
+  max-height: calc(100vh - 130px);
+  overflow-y: auto;
+}
+
+.team-popup-header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.close-button {
+  width: 50px;
+  height: 50px;
+}
+
+.close-button * {
+  width: 30px;
+  height: 30px;
+}
+
+.team-member-popup .team-member-img {
+  float: left;
+  margin-right: 10px;
+}
+
+
+@media screen and (max-width: 600px) {
+  .team-member-popup .team-member-img-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .team-member-popup .team-member-img {
+    float: unset;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
 }
