@@ -1,8 +1,8 @@
 - name: Johnny Page
   education: Sc.M.
-  title: Founding CEO
+  title: Co-Founder & CEO
   img: johnny-page.jpeg
-  about: Johnny Page is the founding CEO of Bolden Therapeutics. He received his A.B. in Music, Sc.B. in Neuroscience, and Sc.M. in Biotechnology, all from Brown University. He also completed additional entrepreneurship training at MIT in 2018. Johnny now leads Bolden’s effort to develop and commercialize potentially game-changing, pro-neurogenic compounds to help treat some of the most challenging unmet needs in neurological diseases.
+  about: Johnny Page is a Co-Founder and CEO of Bolden Therapeutics. He received his A.B. in Music, Sc.B. in Neuroscience, and Sc.M. in Biotechnology, all from Brown University. He also completed additional entrepreneurship training at MIT in 2018. Johnny leads Bolden’s effort to develop novel compounds to help treat neurological diseases.
 - name: Justin R. Fallon
   education: Ph.D.
   title: Scientific Founder, SAB Chair
@@ -38,3 +38,8 @@
   title: Research Scientist
   img: jill-dvornik.jpeg
   about: Jill has been working in the field of stem cell disease modeling for the past nine years, most recently at Novartis. She has optimized protocols for differentiating a variety of neuronal and glial cells from human stem cells, as well as creating 2d and 3d co-culture systems. Jill’s focus has been to use these models to elucidate new therapeutic targets as well as to gain a better understanding of cellular and molecular phenotypes of disease states and the effects of potential therapeutic candidates.
+- name: Emma Downey
+  education: B.S. '22
+  title: Research Intern
+  img: emma-downey.jpg
+  about: Emma is currently a 3rd year biomedical engineering major at Tufts University. Before coming to Bolden, Emma took the year off from school to do Tufts' co-op program. Her first co-op was at Insulet working as a systems engineer, and she just finished her second co-op at Moderna working on the Lipid Nanoparticle Process Development team. Back at school, she is a member in the Society of Women Engineers (SWE), a group leader for Tufts Engineering Ambassadors, a Girls in STEM mentor, an LCS tutor, and a member of Tufts Mountain Club. Additionally,  Emma was recently inducted into the Tau Beta Pi Engineering Honor Society and was the 2021 recipient of the Lt. Commander Robert James Manning Memorial Prize. Now Emma is looking forward to trying her hand at research and contributing to the efforts surrounding neurodegenerative disease.
