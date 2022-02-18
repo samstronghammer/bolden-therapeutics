@@ -3,7 +3,6 @@ layout: default
 title: "Team"
 ---
 
-
 <script>
   const showPopup = (num) => {
     const popup = document.getElementById(`popup-id-${num}`);
@@ -34,7 +33,7 @@ title: "Team"
           <img src="assets/img/team/{{item.img}}" class="team-member-img" alt="{{item.name}}, {{item.title}}">
         </div>
         <div class="team-member-info">
-          <h3>{{item.name}}, {{item.education}}</h3>
+          <h3>{{item.name}}<br>{{item.education}}</h3>
           <i>
             <p>{{item.title}}</p>
           </i>
@@ -46,7 +45,7 @@ title: "Team"
         <div class="team-member-popup-container">
           <div class="team-popup-header">
             <div class="team-member-info">
-              <h3>{{item.name}}</h3>
+              <h3>{{item.name}}, {{item.education}}</h3>
               <h4>{{item.title}}</h4>
             </div>
             <button onclick=hidePopup({{forloop.index0}}) class="no-border-button close-button">

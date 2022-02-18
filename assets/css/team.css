@@ -41,7 +41,10 @@
 .team .team-member-info h3 {
   margin: 0;
   max-width: var(--team-image-width);
+}
 
+.team .team-member-popup .team-member-info h3 {
+  max-width: unset;
 }
 
 .team .team-member-info i p {
@@ -86,6 +89,7 @@
 
 .team .team-hover {
   transition: transform 0.2s ease, box-shadow 0.2s ease;
+  height: 80%;
 }
 
 .team .team-hover:hover {
